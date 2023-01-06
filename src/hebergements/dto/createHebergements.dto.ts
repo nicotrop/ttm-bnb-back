@@ -3,6 +3,7 @@ export class CreateHebergementsDto {
   host_lastname: string;
   host_email: string;
   host_firstname: string;
+  img_url: string;
 }
 
 export class CreateHebergementResponse {
@@ -13,4 +14,7 @@ export class CreateHebergementResponse {
   private_code: string;
   salt: string;
   code: string;
+  img_url: string;
+  slug: string;
+  token: string;
 }

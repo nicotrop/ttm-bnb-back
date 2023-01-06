@@ -22,6 +22,15 @@ export class Hebergements {
 
   @Prop()
   salt: string;
+
+  @Prop()
+  img_url: string;
+
+  @Prop()
+  slug: string;
+
+  @Prop()
+  token: string;
 }
 
 export const HebergementsSchema = SchemaFactory.createForClass(Hebergements);

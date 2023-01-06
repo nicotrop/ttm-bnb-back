@@ -30,6 +30,7 @@
     "random-fruits-name": "^1.9.5",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.2.0",
+    "slugify": "^1.6.5",
     "uid2": "^1.0.0"
   },
   "devDependencies": {
